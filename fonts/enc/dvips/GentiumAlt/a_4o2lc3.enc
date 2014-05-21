@@ -1,0 +1,67 @@
+% THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
+
+%%AutoEnc_4o2lc3cceu62b663mbk2to565a
+% Encoding created by otftotfm on Sat Mar 22 13:11:33 2014
+% Command line follows encoding
+/AutoEnc_4o2lc3cceu62b663mbk2to565a [
+%00
+  /Gamma /Delta /Theta /Lambda /Xi /Pi /Sigma /Upsilon
+  /Phi /Psi /Omega /ff /fi /fl /ffi /ffl
+%10
+  /dotlessi /.notdef /grave /yen /caron /breve /Oslash /ring
+  /cedilla /fl /Ecircumflex /oe /macron /AE /OE /ydieresis
+%20
+  /space /exclam /quotedblright /numbersign /dollar /percent /ampersand /quoteright
+  /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+%30
+  /zero /one /two /three /four /five /six /seven
+  /eight /nine /colon /semicolon /degree /equal /oslash /question
+%40
+  /at /A /B /C /D /E /F /G
+  /H /I /J /K /L /M /N /O
+%50
+  /P /Q /R /S /T /U /V /W
+  /X /Y /Z /bracketleft /quotedblleft /bracketright /circumflex /dotaccent
+%60
+  /quoteleft /a /b /c /d /e /f /g
+  /h /i /j /k /l /m /n /o
+%70
+  /p /q /r /s /t /u /v /w
+  /x /y /z /endash /emdash /hungarumlaut /tilde /registered
+%80
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%90
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%A0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%B0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%C0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%D0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%E0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%F0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+] def
+% Command line: 'otftotfm --automatic --encoding=fontools_ot1
+% --tfm-directory=fonts/tfm/lcdftools/GentiumAlt
+% --vf-directory=fonts/vf/lcdftools/GentiumAlt
+% --type1-directory=fonts/type1/lcdftools/GentiumAlt
+% --truetype-directory=fonts/truetype/lcdftools/GentiumAlt
+% --encoding-directory=fonts/enc/dvips/GentiumAlt
+% --map-file=fonts/map/dvips/GentiumAlt/GentiumAlt.map --no-updmap
+% --no-type1 --coding-scheme=TEX TEXT --feature=kern --ligkern=f i =: fi
+% --ligkern=f l =: fl --ligkern=f f =: ff --ligkern=ff i =: ffi --ligkern=ff
+% l =: ffl
+% /usr/local/texlive/2013/texmf-dist/fonts/truetype/public/gentium/GenAI102.ttf
+% GentiumAlt-Italic-tlf-ot1'

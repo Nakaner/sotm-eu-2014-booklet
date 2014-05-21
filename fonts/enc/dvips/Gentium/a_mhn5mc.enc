@@ -1,0 +1,67 @@
+% THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
+
+%%AutoEnc_mhn5mcanmongeuesgnvyzirtqd
+% Encoding created by otftotfm on Sat Mar 22 13:11:37 2014
+% Command line follows encoding
+/AutoEnc_mhn5mcanmongeuesgnvyzirtqd [
+%00
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /cedilla /ogonek /quotesinglbase /asterisk /question
+%10
+  /bar /degree /quotedblbase /oslash /exclam /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%20
+  /.notdef /.notdef /.notdef /.notdef /dollar /.notdef /.notdef /quotesingle
+  /.notdef /.notdef /.notdef /.notdef /comma /.notdef /period /.notdef
+%30
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /minus /.notdef /.notdef
+%40
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%50
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /Omega
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%60
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%70
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%80
+  /.notdef /.notdef /.notdef /.notdef /dagger /daggerdbl /.notdef /perthousand
+  /bullet /.notdef /.notdef /.notdef /florin /colonmonetary /.notdef /.notdef
+%90
+  /.notdef /.notdef /lira /.notdef /.notdef /.notdef /dong /trademark
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%A0
+  /.notdef /.notdef /cent /sterling /section /bullet /paragraph /germandbls
+  /.notdef /copyright /trademark /.notdef /dieresis /.notdef /AE /.notdef
+%B0
+  /degree /plusminus /twosuperior /threesuperior /.notdef /mu /paragraph /periodcentered
+  /.notdef /pi /ordmasculine /.notdef /ordmasculine /onehalf /ae /.notdef
+%C0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%D0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /multiply /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%E0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%F0
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /tilde /.notdef
+  /ffl /ffi /ff /fl /l /fi /i /f
+] def
+% Command line: 'otftotfm --automatic --encoding=fontools_ts1
+% --tfm-directory=fonts/tfm/lcdftools/Gentium
+% --vf-directory=fonts/vf/lcdftools/Gentium
+% --type1-directory=fonts/type1/lcdftools/Gentium
+% --truetype-directory=fonts/truetype/lcdftools/Gentium
+% --encoding-directory=fonts/enc/dvips/Gentium
+% --map-file=fonts/map/dvips/Gentium/Gentium.map --no-updmap --no-type1
+% --coding-scheme=TEX TEXT COMPANION SYMBOLS 1---TS1 --ligkern=f i =: fi
+% --ligkern=f l =: fl --ligkern=f f =: ff --ligkern=ff i =: ffi --ligkern=ff
+% l =: ffl
+% /usr/local/texlive/2013/texmf-dist/fonts/truetype/public/gentium/GenI102.ttf
+% Gentium-Italic-tlf-ts1'

@@ -1,0 +1,74 @@
+\documentclass[a7paper,
+% parskip=half-,
+version=last,toc=bib,toc=graduated,toc=index,toc=listof,10pt]{scrbook}
+\usepackage[utf8]{inputenc}
+% \usepackage[ngerman]{babel}
+
+% \usepackage[osf,sc]{mathpazo}
+% \usepackage{tex/latex/Gentium/Gentium}
+\usepackage{libertine}
+
+\usepackage{geometry}
+\geometry{%a6paper
+paperwidth=105mm, paperheight=148mm, 
+portrait,
+top=11.67mm, inner=8.22mm, outer=16.44mm, bottom=23.33mm
+%headsep=10mm, footskip=12mm
+}
+
+\usepackage{setspace}
+\setstretch{1.1}
+
+\usepackage[babel,german=quotes]{csquotes}
+\usepackage{relsize}
+
+\clubpenalty=10000 %keine Schusterjungen
+ \widowpenalty=10000 
+ \displaywidowpenalty=10000 % keine Hurenkinder
+
+\usepackage{microtype} %schönerer Textsatz
+
+\usepackage{graphicx} %Bilder
+
+%Dateipfade, wo die Bilder liegen
+\graphicspath{{images_print/}{icons/}}
+
+\usepackage{hyperref} %Links
+\usepackage{tabu}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{booktabs}
+
+\usepackage{scrpage2}
+\pagestyle{scrplain}
+
+\addtokomafont{sectioning}{\rmfamily} % Kapitel- und Abschnittsüberschriften in Serifenschrift
+\newcommand{\acro}[1]{{\textsmaller{#1}}} % Akronyme
+
+\addtokomafont{caption}{\raggedright} % schaltet Blocksatz in Bildunterschriften aus
+
+% \usepackage[style=numeric]{biblatex}
+% \bibliography{literatur.bib}
+
+
+%Titelei
+\title{State of the Map 2014}
+\subtitle{Programm}
+%\author{FOSSGIS e.V. and Karlsruhe OSM community}
+%\date{\today}
+
+
+
+
+\begin{document}
+\maketitle
+\input{overview/overview}
+\input{friday/table}
+\input{friday/abstracts}
+\input{saturday/table}
+\input{saturday/abstracts}
+
+\end{document}

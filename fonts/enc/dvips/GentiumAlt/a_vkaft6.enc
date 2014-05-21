@@ -1,0 +1,67 @@
+% THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
+
+%%AutoEnc_vkaft6pqzl4lq2jpxfx63hzhub
+% Encoding created by otftotfm on Sat Mar 22 13:11:33 2014
+% Command line follows encoding
+/AutoEnc_vkaft6pqzl4lq2jpxfx63hzhub [
+%00
+  /grave /yen /circumflex /tilde /registered /hungarumlaut /ring /caron
+  /breve /Oslash /dotaccent /cedilla /ogonek /quotesinglbase /guilsinglleft /guilsinglright
+%10
+  /quotedblleft /quotedblright /quotedblbase /acute /ordfeminine /endash /emdash /.notdef
+  /.notdef /dotlessi /.notdef /ffl /ffi /ff /fl /fi
+%20
+  /.notdef /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
+  /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+%30
+  /zero /one /two /three /four /five /six /seven
+  /eight /nine /colon /semicolon /less /equal /greater /question
+%40
+  /at /A /B /C /D /E /F /G
+  /H /I /J /K /L /M /N /O
+%50
+  /P /Q /R /S /T /U /V /W
+  /X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
+%60
+  /quoteleft /a /b /c /d /e /f /g
+  /h /i /j /k /l /m /n /o
+%70
+  /p /q /r /s /t /u /v /w
+  /x /y /z /braceleft /bar /braceright /asciitilde /hyphen
+%80
+  /Abreve /Aogonek /Cacute /Ccaron /Dcaron /Ecaron /Eogonek /Gbreve
+  /Lacute /Lcaron /Lslash /Nacute /Ncaron /Eng /Ohungarumlaut /Racute
+%90
+  /Rcaron /Sacute /Scaron /Scedilla /Tcaron /.notdef /Uhungarumlaut /Uring
+  /Ydieresis /Zacute /Zcaron /Zdotaccent /IJ /Idotaccent /.notdef /germandbls
+%A0
+  /abreve /aogonek /cacute /ccaron /dcaron /ecaron /eogonek /gbreve
+  /lacute /lcaron /lslash /nacute /ncaron /eng /ohungarumlaut /racute
+%B0
+  /rcaron /sacute /scaron /scedilla /tcaron /.notdef /uhungarumlaut /uring
+  /caron /zacute /zcaron /zdotaccent /ij /degree /oslash /sterling
+%C0
+  /questiondown /exclamdown /logicalnot /Atilde /florin /Aring /AE /guillemotleft
+  /guillemotright /ellipsis /space /Agrave /Atilde /Otilde /OE /oe
+%D0
+  /endash /emdash /quotedblleft /quotedblright /quoteleft /quoteright /divide /OE
+  /ydieresis /Ydieresis /Uacute /currency /guilsinglleft /guilsinglright /fi.alt /.notdef
+%E0
+  /daggerdbl /periodcentered /quotesinglbase /quotedblbase /perthousand /Acircumflex /Ecircumflex /Aacute
+  /Edieresis /Egrave /Iacute /Icircumflex /Idieresis /Igrave /Oacute /Ocircumflex
+%F0
+  /eth /Ograve /Uacute /Ucircumflex /Ugrave /dotlessi /circumflex /oe
+  /macron /breve /dotaccent /ring /cedilla /hungarumlaut /ogonek /fl
+] def
+% Command line: 'otftotfm --automatic --encoding=fontools_t1
+% --tfm-directory=fonts/tfm/lcdftools/GentiumAlt
+% --vf-directory=fonts/vf/lcdftools/GentiumAlt
+% --type1-directory=fonts/type1/lcdftools/GentiumAlt
+% --truetype-directory=fonts/truetype/lcdftools/GentiumAlt
+% --encoding-directory=fonts/enc/dvips/GentiumAlt
+% --map-file=fonts/map/dvips/GentiumAlt/GentiumAlt.map --no-updmap
+% --no-type1 --coding-scheme=EXTENDED TEX FONT ENCODING - LATIN
+% --feature=kern --ligkern=f i =: fi --ligkern=f l =: fl --ligkern=f f =: ff
+% --ligkern=ff i =: ffi --ligkern=ff l =: ffl
+% /usr/local/texlive/2013/texmf-dist/fonts/truetype/public/gentium/GenAI102.ttf
+% GentiumAlt-Italic-tlf-t1'
