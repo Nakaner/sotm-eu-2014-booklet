@@ -3,13 +3,15 @@
 
 \newcommand{\talk}[2]%
 {%
-& \textbf{#2} \newline #1
+& \textbf{#1} \newline \emph{#2}
 }%
 % title -- speaker
 
+\newcommand{\coffeespace}{\vspace{0.4em}}
 
 \definecolor{commongray}{gray}{.9}
 
+\renewcommand{\arraystretch}{1.4}
 \begin{longtabu}{XX[4l]X[4l]}
 % \toprule
 \rowcolor{commongray}
@@ -19,29 +21,29 @@
 09:30 
 \talk{}{}
 \talk{Opening}{Orga}
-\tabularnewline
+\coffeespace\tabularnewline
 % \midrule
 10:30 
 \talk{Everything but directions.}{Dennis Luxen}
 \talk{I've bought a car for mapping, now what?}{Ilya Zverev }
-\tabularnewline
+\coffeespace\tabularnewline
 % \midrule
 \rowcolor{commongray}
 10:30 & \multicolumn{2}{c}{coffee break} \tabularnewline
 11:00 
 \talk{BikeDistrict - The smart city by bicycle}{Marco Quaggiotto }
 \talk{Opengeofiction}{Thilo Stapff, Johannes Bouchain}
-\tabularnewline
+\coffeespace\tabularnewline
 % \midrule
 11:30 
 \talk{}{}
 \talk{Map rendering beyond Mapnik}{Sven Geggus}
-\tabularnewline
+\coffeespace\tabularnewline
 % \midrule
 12:00 
 \talk{The use of OpenStreetMap data in journey planning}{Thomas Jakubicka }
 \talk{pgmapcss - Advanced cartography for Mapnik}{Stephan Bösch-Plepelits }
-\tabularnewline
+\coffeespace\tabularnewline
 % \midrule
 \rowcolor{commongray}
 12:30 & \multicolumn{2}{c}{lunch} \tabularnewline
@@ -49,17 +51,17 @@
 14:00 
 \talk{State of the Kort Game}{Stefan Keller}
 \talk{Lightning Map Tiles}{Andy Allan }
-\tabularnewline
+\coffeespace\tabularnewline
 % \midrule
 14:30 
 \talk{OSM housenumber evaluation}{Dietmar Seifert }
 \talk{Rendering Maps with OpenGL}{Konstantin Käfer }
-\tabularnewline
+\coffeespace\tabularnewline
 % \midrule
 15:00 
 \talk{State of the OSM-France's tools}{Christian Quest}
 \talk{Tesselator's Delight}{Brett Camper}
-\tabularnewline
+\coffeespace\tabularnewline
 % \midrule
 \rowcolor{commongray}
 15:30 & \multicolumn{2}{c}{coffee break} \tabularnewline
@@ -67,17 +69,17 @@
 16:00 
 \talk{Osmose}{Frédéric Rodrigo}
 \talk{OSM Buildings}{Jan Marsch }
-\tabularnewline
+\coffeespace\tabularnewline
 % \midrule
 16:30 
 \talk{MapRoulette 2: Electric Boogaloo}{Serge Wroclawski }
 \talk{2.5\,D maps and bird views with OpenStreetMap and Blender}{Vladimir Elistratov}
-\tabularnewline
+\coffeespace\tabularnewline
 % \midrule
 17:00 
 \talk{Lightning Talks I}{community}
 \talk{An Approach for Cartographically Plausible and Good Point-Feature Label Placement on OSM-based Maps}{Maxim Rylov}
-\tabularnewline
+\coffeespace\tabularnewline
 % \midrule
 \rowcolor{commongray}
 19:00 & \multicolumn{2}{c}{Social Event} \tabularnewline

@@ -1,37 +1,53 @@
 \section{Saturday}
 
-\begin{longtabu}{XX[4l]X[4l]}
+\newcolumntype{Z}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\newcommand{\geocodingtalk}[2]{%
+\textbf{#1} \newline\raggedright \emph{#2}%
+\vspace*{0.4em}}
+\renewcommand{\arraystretch}{1.4}
+%\setlength{\extrarowheight}{1pt}
+
+\begin{longtabu}{lZ{3cm}Z{3cm}}
+% \begin{tabular}{p{1cm}p{3cm}p{3cm}}
+% \begin{longtabu}{XX[4L]L{3cm}}
 % \toprule
 \rowcolor{commongray}
-& \multicolumn{1}{c}{Hörsaal B}
-& \multicolumn{1}{c}{Aula} \tabularnewline
+& {\centering Hörsaal B}
+& {\centering Aula} \tabularnewline
 % \midrule
 09:30
 \talk{Versioning OSM data with GeoGit}{Victor Olaya}
 \talk{Identifying Elements at Flood Risk with Volunteered Geographic Information}{Joao Porto de Albuquerque}
+\coffeespace
 \tabularnewline
 % \midrule
 10:00
 \talk{Imposm}{Oliver Tonnhofer}
 \talk{SardSOS. More than a map}{Francesca Murtas}
+\coffeespace
 \tabularnewline
 % \midrule
 \rowcolor{commongray}
-10:30 & \multicolumn{2}{c}{coffee break until 11:00} \tabularnewline
+10:30 & \multicolumn{2}{C{6cm}}{\centering coffee break} \tabularnewline
 % \midrule
 11:00 
 \talk{Sparse Editing}{Roland Olbricht}
 \talk{Developing efficient routing algorithms for mobile systems}{Harald Koertge}
+\coffeespace
 \tabularnewline
 % \midrule
 11:30
 \talk{JOSM}{Simon Legner}
 \talk{Lightning Talks II}{community}
+\coffeespace
 \tabularnewline
 % \midrule
 12:00
 \talk{Wall·E}{Oliver Kaleske}
 \talk{Lightning Talks III}{community}
+\coffeespace
 \tabularnewline
 % \midrule
 \rowcolor{commongray}
@@ -40,16 +56,19 @@
 14:00 
 \talk{Introduction to libosmscout}{Tim Teulings}
 \talk{OSM: world map or set of local maps?}{Kirill Bondarenko}
+\coffeespace
 \tabularnewline
 % \midrule
 14:30 
 \talk{A Combined In- and Outdoor Map Application for Android}{Thomas Graichen}
 \talk{Where the Streets have no Name}{Daniel Kastl}
+\coffeespace
 \tabularnewline
 % \midrule
 15:00 
 \talk{}{}
 \talk{Keynote: How to Create a Better World}{Dirk Helbing}
+\coffeespace
 \tabularnewline
 % \midrule
 \rowcolor{commongray}
@@ -57,22 +76,46 @@
 % \midrule
 16:00 
 \talk{Creating a bridge between OpenSteetMap and Wikipedia: Wikipedia-tags-in-OSM}{Cristian Consonni }
-\talk{}{}
+\talk{Mapillary -- the missing view of the planet}{Peter Neubauer}
+\coffeespace
 \tabularnewline
 % \midrule
 16:30 
 \talk{Monitoring data consistency in OpenStreetMap using its spatial features and tags semantics}{Alfonso Crisci }
-\talk{}{}
+& 
+% \multirow{2}{*}{%
+% % \begin{minipage}[t][6cm][c]{3cm}
+\cellcolor{commongray}
+\parbox[t][3.3cm][t]{3cm}{
+% \vspace{-1cm}
+\textbf{Geocoding Session} 
+\newline\raggedright
+\small{\emph{moderated by Sarah Hoffmann}\vspace*{0.65em}\newline
+% \begin{itemize}
+\geocodingtalk{Geocoding -- the missing link for OSM}{Gary Gale}
+}}
+% % \end{minipage}%
+% }
 \tabularnewline
 % \midrule
 17:00 
 \talk{Beyond the 3 "R"s}{Jerry Clough}
-\talk{}{}
+& 
+\cellcolor{commongray}
+\parbox[t][1.8cm][t]{3cm}{\small
+\textbf{Pelia} \newline
+\emph{Randy Meech}\vspace*{0.4em}\newline
+\textbf{OSM Gazetteer}\newline
+\emph{Dmitry Kiselev}
+}
+%\coffeespace
 \tabularnewline
+\vspace*{7cm}%
 % \midrule
 17:30 
 \talk{}{}
 \talk{Closing}{orga}
+\coffeespace
 \tabularnewline
 % % \midrule
 % xx:x0 
@@ -84,6 +127,7 @@
 \rowcolor{commongray}
 19:00 & \multicolumn{2}{c}{biergarten at Kühler Krug, Wilhelm-Baur-Strasse 3a} \tabularnewline
 \end{longtabu}
+% \end{longtabu}
 
 \vspace{1em}
 
