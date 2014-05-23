@@ -1,23 +1,43 @@
+% typeset an abstract without speaker name
+% DEPRECATED -- DO NOT USE ANYMORE
 \newcommand{\talkabstract}[4]%
 {%
 \newpage%
-% \newpage%
 \subsection*{#1}%
 \subsubsection*{#2}%
 #4 \par%
 {\em{#3}}%
 }
 
+% typeset an abstarct with speaker name
+% REPLACES \talkabstract
+% Please attend that the spacing between the bold lines may change after every 
+% compilation if the text is longer than one page!
+%
+% USAGE:
+% \abstractwithspeaker{Joe Average}{title}{subtitle}{speakers's bio}{abstract text}
+\newcommand{\abstractwithspeaker}[5]%
+{%
+\newpage%
+\noindent \emph{#1}%
+\vspace{0.75em}
+{\par\noindent\large \sectfont #2}%
+\vspace*{0.35em}%
+{\par\noindent\bfseries \normalsize \sectfont #3}
+\vspace{1em}
+\par\noindent #5 \par%
+{\em{#4}}%
+}
+
 \newcommand{\talkabstractwithoutsub}[3]%
 {%
 \newpage%
-% \newpage%
 \subsection*{#1}%
 #3 \par%
 {\em{#2}}%
 }
 
-\talkabstract{Everything but directions.}%
+\talkabstact{Everything but directions.}%
 {All the other exciting things you can do with routing.}%
 {Dennis Luxen, the lead developer of Open Source Routing Machine, a high-performance routing engine, is an algorithm engineer at heart. He holds a MSc as well as a PhD in computer science. His work focuses on highly scalable route planning mapping services. Dennis is currently working at Mapbox. }%
 {The talk explores the benefits of a state-of-the-art routing engine that go beyond the means to get simple driving or walking directions. We explore how 
