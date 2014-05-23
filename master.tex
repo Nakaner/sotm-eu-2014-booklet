@@ -26,7 +26,7 @@ top=11.67mm, inner=8.22mm, outer=16.44mm, bottom=23.33mm
  \widowpenalty=10000 
  \displaywidowpenalty=10000 % keine Hurenkinder
 
-\usepackage{microtype} %schönerer Textsatz
+\usepackage[letterspace=10]{microtype} %schönerer Textsatz
 
 \usepackage{graphicx} %Bilder
 
@@ -64,6 +64,8 @@ top=11.67mm, inner=8.22mm, outer=16.44mm, bottom=23.33mm
 
 
 \begin{document}
+\lsstyle
+\usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}
 \maketitle
 \input{overview/overview}
 \input{friday/table}
