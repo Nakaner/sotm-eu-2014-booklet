@@ -15,6 +15,7 @@ master.pdf
 # backup files #
 ################
 *.bak
-*.*~
+*~
+
 
 # PDF files are not ignored because this repo my contain vector graphics in PDF format
