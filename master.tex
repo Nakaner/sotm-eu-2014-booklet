@@ -41,7 +41,7 @@ top=11.67mm, inner=18.22mm, outer=26.44mm, bottom=23.33mm
 \usepackage{multirow}
 \usepackage{booktabs}
 \usepackage{array}
-\usepackage{scrpage2}
+\usepackage[manualmark]{scrpage2}
 \pagestyle{scrplain}
 
 \addtokomafont{sectioning}{\sffamily} % Kapitel- und Abschnittsüberschriften in Serifenschrift
@@ -58,6 +58,14 @@ top=11.67mm, inner=18.22mm, outer=26.44mm, bottom=23.33mm
 \subtitle{Programm}
 %\author{FOSSGIS e.V. and Karlsruhe OSM community}
 %\date{\today}
+
+\newcommand{\talktime}{}
+\newcommand{\talkroom}{}
+\clearscrheadings
+\chead[]{\talktime, \talkroom}
+
+\pagestyle{empty}
+
 
 
 
