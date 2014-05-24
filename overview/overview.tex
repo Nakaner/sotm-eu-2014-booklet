@@ -30,14 +30,17 @@
 
 % \newcolumntype{Z}[1]{>{\centering\arraybackslash}m{#1}} 
 
+\newcolumntype{Y}[1]{>{\centering\arraybackslash}p{#1}}
+
+\renewcommand{\arraystretch}{1.2}
 \noindent
-\begin{tabu}{X[3C]X[2C]X[3C]}
+\begin{tabu}{Y{2.25cm}Y{2.25cm}Y{2.25cm}}
 % \textbf{\centering Thursday} & \multicolumn{2}{c}{pre-conference pub meet} \vspace{0.8em}
 %  \tabularnewline
 \rowcolor{commongray}\textbf{Hörsaal B} & \textbf{Friday}
 & \textbf{Aula} \tabularnewline
 % registration and coffee & 09:00--09:30 & \tabularnewline
- & 09:30-10:00 & opening/keynote \tabularnewline
+ & 09:30-10:00 & opening \tabularnewline
 % \multicolumn{3}{c}{\cellcolor{commongray}\parbox[c]{14pt}{
 % \includegraphics[height=10pt]{cafe}} coffee break} \tabularnewline
 talks & 10:00-10:30 & talks \tabularnewline
@@ -51,40 +54,44 @@ talks & 14:00-15:00 & talks \tabularnewline
 \includegraphics[height=10pt]{cafe}} coffee break} \tabularnewline
 talks & 15:30-17:00 & talks \tabularnewline
 % \rowcolor{commongray}19:00 & \multicolumn{2}{c}{social event} 
-\multicolumn{3}{c}{\cellcolor{commongray} \parbox[m][0.9cm][c]{6cm}{\centering 
+\multicolumn{3}{c}{\cellcolor{commongray} \parbox[c]{6cm}{\centering 
 19:00 \hspace{2pt}
 \parbox[c]{14pt}{
 \includegraphics[height=10pt]{biergarten}}
-social event 
-\par\noindent at campus}} 
+social event at campus}} 
 \end{tabu}
 
+\vspace{1em}
 \noindent
-\begin{tabu}{X[3C]X[2C]X[3C]}
+\begin{tabu}{Y{2.25cm}Y{2.25cm}Y{2.25cm}}
+%\begin{tabu}{X[4C]X[4C]X[4C]}
 \rowcolor{commongray}\textbf{Hörsaal B} & \textbf{Saturday} & \textbf{Aula} \tabularnewline
 talks & 09:30-10:30 & talks \tabularnewline
-\multicolumn{3}{c}{\cellcolor{commongray}\parbox[c]{14pt}{
+\multicolumn{3}{Y{7.6cm}}{
+\cellcolor{commongray}\parbox[c]{14pt}{
 \includegraphics[height=10pt]{cafe}} coffee break} \tabularnewline
-% \rowcolor{commongray} & coffee break & \tabularnewline
 talks & 11:00-12:30 & talks \tabularnewline
-\multicolumn{3}{c}{\cellcolor{commongray}\parbox[c]{14pt}{
+\multicolumn{3}{Y{7.6cm}}{
+\cellcolor{commongray}\parbox[c]{14pt}{
 \includegraphics[height=10pt]{restaurant}} lunch} \tabularnewline
-% \rowcolor{commongray} & lunch & \tabularnewline
-keynote & 14:00-15:00 & \tabularnewline
-% \rowcolor{commongray} & coffe break & \tabularnewline
-\multicolumn{3}{c}{\cellcolor{commongray}\parbox[c]{14pt}{
+talks & 14:00-14:50 & talks \tabularnewline
+ & 14:50-15:30 & keynote \tabularnewline
+\multicolumn{3}{Y{7.6cm}}{
+\cellcolor{commongray}\parbox[c]{14pt}{
 \includegraphics[height=10pt]{cafe}} coffee break} \tabularnewline
-talks & 15:30-17:00 & talks \tabularnewline
-\multicolumn{3}{c}
-{
-\cellcolor{commongray} 
-\centering 
+talks & 16:00-17:30 & talks \tabularnewline
+ & 17:30-18:00 & closing \tabularnewline
+\multicolumn{3}{Y{7.6cm}}{
+\cellcolor{commongray}
+%\multicolumn{3}{c}
+%{
+%\centering 
 19:00 \hspace{2pt}
 \parbox[c]{10pt}
 {
 \includegraphics[height=10pt]{biergarten}
 }
-at Kühler Krug, Wilhelm-Baur-Strasse 3a
+Kühler Krug, Wilhelm-Baur-Str. 3a
 }  
 \end{tabu}
 
