@@ -65,8 +65,13 @@ headsep=3mm, footskip=12mm
 \clearscrheadings
 \chead[]{\talktime, \talkroom}
 
-\pagestyle{empty}
+% Seitenzahlen
+\cfoot[\pagemark]{\pagemark}
+\ofoot[]{}
+\ifoot[]{}
+\pagestyle{scrplain}
 
+% Durchschuss erhöhen
 \linespread{1.04}
 
 
