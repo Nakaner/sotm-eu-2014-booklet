@@ -151,20 +151,75 @@ create a bridge among the two projects.}
 
 This talk presents preliminary results from work done by Alfonso Crisci (IBIMET-CNR), Maurizio Napolitano (FBK-Trento), Francesca De Chiara (FBK-Trento), Valentina Grasso (IBIMET-CNR, LaMMA Consortium), and Cristian Consonni (FBK-Trento).}
 
-\abstractwithspeaker{16:30 (geocoding session)}{Building A}{Gary Gale}{Geocoding -- the missing link for OSM?}%
-{Geocoding isn't easy and yet it's vital to the success of OSM}%
-{A self-professed map addict, Gary has worked in the mapping and location space for over 20 years through a combination of luck and occasional good judgement. Currently consulting with Lokku as Geotechnologist in Residence, Gary is helping to advance open geospatial technologies and bring them to new markets. A Fellow of the RGS, he tweets about maps, writes about them and even makes them. }%
-{So many uses of maps need some form of geocoding. Geocoding is simple, just strip out known stop words and look up the place or address in a gazetteer and hey presto, instant coordinates. The same applies for reverse geocoding, it's easy. Right? But it's not easy and it's not trivial. While OSM continues to make massive strides towards being the definitive source of open mapping data, geocoding has ... languished a bit. This talk will tell you why geocoding isn't easy. It will tell you about why once you can geocode in one country it doesn't mean you can automatically geocode in another country. It will also tell you about why Nomimatim isn't the only open source geocoder that's out there. And this talk may have something exciting from Lokku and OpenCage Data to announce, which may just be related to geocoding. Geocoding shouldn't be the missing link for open maps and for OSM; this talk will tell you why. }
+\abstractwithspeaker{16:30 (geocoding session)}{Building A}{Gary Gale}%
+{Geocoding---the Missing Link for OSM?}%
+{Geocoding Isn't Easy and yet It's Vital to the Success of OSM}%
+{A self-professed map addict, Gary has worked in the mapping and 
+location space for over 20 years through a combination of luck and 
+occasional good judgement. Currently consulting with Lokku as 
+Geotechnologist in Residence, Gary is helping to advance open 
+geospatial technologies and bring them to new markets. 
+%A Fellow 
+%of the RGS, he tweets about maps, writes about them and even makes them. 
+}%
+{
+%So many uses of maps need some form of geocoding. 
+% Geocoding is 
+% simple, just strip out known stop words and look up the place or 
+% address in a gazetteer and hey presto, instant coordinates. The 
+% same applies for reverse geocoding. Right? But it's 
+% not easy and trivial. While OSM continues to make massive 
+% strides towards being the definitive source of open mapping data, 
+% geocoding has ... languished a bit.
+This talk will tell you why 
+geocoding isn't easy. 
+It will tell you why there are differences in geocoding between the countries
+% It will tell you about why once you can geocode in one country it 
+% doesn't mean you can automatically geocode in another country. 
+% It 
+%will also tell you about 
+and why Nomimatim isn't the only open source 
+geocoder 
+%that's out there. 
+% And this talk may have something exciting 
+% from Lokku and OpenCage Data to announce, which may just be related 
+% to geocoding. 
+%Geocoding shouldn't be the missing link for open maps 
+%and for OSM; this talk will tell you why. 
+}
 
-\abstractwithspeaker{16:30 (geocoding session)}{Building A}{Randy Meech}{Pelias}%
+\geocodingabstract{16:30 (geocoding session)}{Building A}{Randy Meech}{Pelias}%
 {A new OpenStreetMap geocoder with Elasticsearch}%
 {Randy is CEO of Mapzen, a company working on an open source mobile mapping application. In a prior role at MapQuest, he worked to re-orient the company toward open data and tools}%
-{Users of mobile mapping applications expect a forward geocoder with autocomplete and flexible search results, as well as an accurate reverse geocoder. Recent versions of Elasticsearch offer both excellent geo support and a fast completion suggester. Pelias is a new open-source project with tools for indexing OpenStreetMap, Geonames, and Quattroshapes data into Elasticsearch, and a simple server to handle queries and auto-complete suggestions. A major goal of the project is to make it easy to adapt the query parser and data pre-processors to the requirements of specific languages and locations. For example, users in New York City might require searchable intersections, while French-speaking users in Quebec might need a different query parser from those in France. It should be easy to edit these rules such that little programming experience is necessary. This presentation will cover the basic architecture and data strategies of the project, provide some details into Elasticsearch's geo and completion support, and will have a big focus on how to contribute. Demo: http://mapzen.com/pelias Github: https://github.com/mapzen/pelias}
+{%
+% Users of mobile mapping applications expect a forward geocoder with 
+% autocomplete and flexible search results, as well as an accurate 
+% reverse geocoder. 
+Recent versions of Elasticsearch offer both 
+excellent geo support and a fast completion suggester. Pelias is a 
+new open-source project with tools for indexing 
+OSM, Geonames, and Quattroshapes data into Elasticsearch, and a 
+simple server to handle queries and auto-complete suggestions. 
+A major goal of the project is to make it easy to adapt the query parser 
+and data pre-processors to the requirements of specific languages and 
+locations. For example, users in New York City might require searchable 
+intersections, while French-speaking users in Quebec might need a 
+different query parser from those in France. 
+% It should be easy to edit 
+% these rules such that little programming experience is necessary. 
+This 
+presentation will cover the basic architecture and data strategies of the 
+project, provide some details into Elasticsearch's geo and completion 
+support, and will have a big focus on how to contribute. 
+%Demo: http://mapzen.com/pelias Github: https://github.com/mapzen/pelias
+}
 
-\abstractwithspeaker{16:30 (geocoding session)}{Building A}{Dmitry Kiselev}{OSM Gazetteer}%
-{OSM Gazetteer or what's wrong with Nominatim}%
-{OSM Contributor since 2010. Keen gis programmer. }%
-{- Big search engines and osm. - Local addressing traits. - Sphinx/Solr (Lucene) and osm. - PostGIS or not PostGIS. }
+\geocodingabstract{16:30 (geocoding session)}%
+{Building A}{Dmitry Kiselev}{OSM Gazetteer}%
+{OSM Gazetteer or What's Wrong with Nominatim}%
+{Dimitry has been OSM Contributor since 2010 and is a keen GIS programmer. }%
+{This talk is about big search engines and osm, local addressing traits,
+Sphinx/Solr (Lucene) and OSM, and PostGIS or not PostGIS. }
 
 \abstractwithspeaker{17:00}{Building B}{Jerry Clough}{Beyond the 3 "R"s}%
 {The challenges of using OpenStreetMap data for analysis}%
