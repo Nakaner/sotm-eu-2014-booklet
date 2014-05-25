@@ -1,11 +1,6 @@
 \documentclass[
-% parskip=half-,
 version=last,toc=bib,toc=graduated,toc=index,toc=listof,9pt]{scrbook}
 \usepackage[utf8]{inputenc}
-% \usepackage[ngerman]{babel}
-
-% \usepackage[osf,sc]{mathpazo}
-% \usepackage{tex/latex/Gentium/Gentium}
 \usepackage{dejavu}
 
 \usepackage{geometry}
@@ -44,14 +39,12 @@ headsep=3mm, footskip=12mm
 \usepackage[manualmark]{scrpage2}
 \pagestyle{scrplain}
 
-\addtokomafont{sectioning}{\sffamily} % Kapitel- und Abschnittsüberschriften in Serifenschrift
+
 \newcommand{\acro}[1]{{\textsmaller{#1}}} % Akronyme
 
-\addtokomafont{caption}{\raggedright} % schaltet Blocksatz in Bildunterschriften aus
+% Überschriften in DejaVu Sans Condensed
+\addtokomafont{sectioning}{\fontfamily{DejaVuSansCondensed-TLF}\selectfont}
 \addtokomafont{pageheadfoot}{\usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}}
-
-% \usepackage[style=numeric]{biblatex}
-% \bibliography{literatur.bib}
 
 
 %Titelei
@@ -75,12 +68,15 @@ headsep=3mm, footskip=12mm
 \linespread{1.04}
 
 
-
 \begin{document}
 \lsstyle
 \usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}
+
 \maketitle
+
+% Schneidemarken
 \CenterWallPaper{1.003}{crop-marks}
+
 \input{overview/overview}
 \input{friday/table}
 \input{friday/abstracts}
