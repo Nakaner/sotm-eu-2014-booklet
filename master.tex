@@ -1,6 +1,6 @@
-\documentclass[a7paper,
+\documentclass[
 % parskip=half-,
-version=last,toc=bib,toc=graduated,toc=index,toc=listof,10pt]{scrbook}
+version=last,toc=bib,toc=graduated,toc=index,toc=listof,9pt]{scrbook}
 \usepackage[utf8]{inputenc}
 % \usepackage[ngerman]{babel}
 
@@ -10,10 +10,10 @@ version=last,toc=bib,toc=graduated,toc=index,toc=listof,10pt]{scrbook}
 
 \usepackage{geometry}
 \geometry{%a6paper
-paperwidth=125mm, paperheight=168mm, 
+paperwidth=105mm, paperheight=148mm, 
 portrait,
-top=21.67mm, inner=18.22mm, outer=26.44mm, bottom=33.33mm
-%headsep=10mm, footskip=12mm
+top=11.67mm, inner=8.22mm, outer=16.44mm, bottom=23.33mm,
+headsep=3mm, footskip=12mm
 }
 
 
@@ -24,7 +24,7 @@ top=21.67mm, inner=18.22mm, outer=26.44mm, bottom=33.33mm
  \widowpenalty=10000 
  \displaywidowpenalty=10000 % keine Hurenkinder
 
-\usepackage[letterspace=10]{microtype} %schönerer Textsatz
+\usepackage[letterspace=16]{microtype} %schönerer Textsatz
 
 \usepackage{graphicx} %Bilder
 
@@ -74,7 +74,7 @@ top=21.67mm, inner=18.22mm, outer=26.44mm, bottom=33.33mm
 \lsstyle
 \usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}
 \maketitle
-\CenterWallPaper{1.003}{crop-marks}
+%\CenterWallPaper{1.003}{crop-marks}
 \input{overview/overview}
 \input{friday/table}
 \input{friday/abstracts}
