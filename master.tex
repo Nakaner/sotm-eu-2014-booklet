@@ -10,9 +10,9 @@ version=last,toc=bib,toc=graduated,toc=index,toc=listof,9pt]{scrbook}
 
 \usepackage{geometry}
 \geometry{%a6paper
-paperwidth=105mm, paperheight=148mm, 
+paperwidth=125mm, paperheight=168mm, 
 portrait,
-top=11.67mm, inner=8.22mm, outer=16.44mm, bottom=23.33mm,
+top=21.67mm, inner=18.22mm, outer=26.44mm, bottom=33.33mm,
 headsep=3mm, footskip=12mm
 }
 
@@ -48,6 +48,7 @@ headsep=3mm, footskip=12mm
 \newcommand{\acro}[1]{{\textsmaller{#1}}} % Akronyme
 
 \addtokomafont{caption}{\raggedright} % schaltet Blocksatz in Bildunterschriften aus
+\addtokomafont{pageheadfoot}{\sffamily}
 
 % \usepackage[style=numeric]{biblatex}
 % \bibliography{literatur.bib}
@@ -74,7 +75,7 @@ headsep=3mm, footskip=12mm
 \lsstyle
 \usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}
 \maketitle
-%\CenterWallPaper{1.003}{crop-marks}
+\CenterWallPaper{1.003}{crop-marks}
 \input{overview/overview}
 \input{friday/table}
 \input{friday/abstracts}
