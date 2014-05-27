@@ -1,5 +1,5 @@
 \documentclass[
-version=last,toc=bib,toc=graduated,toc=index,toc=listof,9pt]{scrbook}
+version=last,toc=bib,toc=graduated,toc=index,toc=listof,9pt,openany]{scrbook}
 \usepackage[utf8]{inputenc}
 \usepackage{dejavu}
 
@@ -26,12 +26,20 @@ headsep=3mm, footskip=12mm
 %Dateipfade, wo die Bilder liegen
 \graphicspath{{images_print/}{icons/}{extra-pages/}}
 
+
 \usepackage{hyperref} %Links
 \usepackage{tabu}
 \usepackage{tabularx}
 \usepackage{longtable}
 \usepackage[table]{xcolor}
 \usepackage{colortbl}
+
+% PDF-Seiten einbinden
+% pdfpages, darf erst nach colortbl geladen werden!
+\usepackage{pdfpages}
+
+% PDFs als Hintergrundbilder
+% wallpaper, darf erst nach colortbl geladen werden!
 \usepackage{wallpaper}
 \usepackage{multirow}
 \usepackage{booktabs}
@@ -85,6 +93,7 @@ headsep=3mm, footskip=12mm
 %\input{overview/overview}
 \input{friday/table}
 \input{friday/abstracts}
+\input{friday/social-event}
 \input{saturday/table}
 \input{saturday/abstracts}
 
