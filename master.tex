@@ -24,7 +24,7 @@ headsep=3mm, footskip=12mm
 \usepackage{graphicx} %Bilder
 
 %Dateipfade, wo die Bilder liegen
-\graphicspath{{images_print/}{icons/}}
+\graphicspath{{images_print/}{icons/}{extra-pages/}}
 
 \usepackage{hyperref} %Links
 \usepackage{tabu}
@@ -75,8 +75,13 @@ headsep=3mm, footskip=12mm
 \maketitle
 
 % Schneidemarken
-\CenterWallPaper{1.0}{crop-marks}
+% Befehl zum Aufrufen definieren
+\newcommand{\cropmarkswallpaper}{%
+\CenterWallPaper{1.0}{crop-marks}%
+}
+\cropmarkswallpaper
 
+\input{welcome/welcome}
 %\input{overview/overview}
 \input{friday/table}
 \input{friday/abstracts}
