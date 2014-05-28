@@ -27,7 +27,6 @@ headsep=3mm, footskip=12mm
 \graphicspath{{images_print/}{icons/}{extra-pages/}}
 
 
-\usepackage{hyperref} %Links
 \usepackage{tabu}
 \usepackage{tabularx}
 \usepackage{longtable}
@@ -81,8 +80,6 @@ headsep=3mm, footskip=12mm
 \lsstyle
 \usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}
 
-\maketitle
-
 % Schneidemarken
 % Befehl zum Aufrufen definieren
 \newcommand{\cropmarkswallpaper}{%
@@ -90,6 +87,13 @@ headsep=3mm, footskip=12mm
 }
 \cropmarkswallpaper
 
+\begin{titlepage}
+\ClearWallPaper
+\includepdf{U1-titel}
+\cropmarkswallpaper
+\end{titlepage}
+
+\input{contents}
 \input{welcome/welcome}
 %\input{overview/overview}
 \input{friday/table}
