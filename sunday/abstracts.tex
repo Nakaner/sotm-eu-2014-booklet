@@ -18,8 +18,27 @@
 \cropmarkswallpaper%
 }
 
+% abstract sunday excursion
+\newcommand{\sundayabstractexcursion}[7]%
+{%
+\newpage%
 \ThisCenterWallPaper{1.0}{excursion}
-\sundayabstract{8:00}{Railway Station}{Jerry Clough}{Woodland and Wetland Mapping}%
+\renewcommand{\talktime}{#1}
+\renewcommand{\talkroom}{#2}
+\thispagestyle{scrheadings}
+\noindent \emph{#3}%
+\vspace{0.75em}
+{\par\noindent\large \sectfont #4}%
+\vspace*{0.35em}%
+{\par\noindent\bfseries \normalsize \sectfont #5}
+\vspace{1em}
+\par\noindent #7 \par%
+\vspace*{0.35em}%
+{\em{#6}}%
+\cropmarkswallpaper%
+}
+
+\sundayabstractexcursion{8:00}{Railway Station}{Jerry Clough}{Woodland and Wetland Mapping}%
 {Sunday Morning Excursion}%
 {}%
 {This is an opportunity for interested mappers to work together in the
