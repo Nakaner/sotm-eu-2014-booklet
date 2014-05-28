@@ -1,5 +1,25 @@
+% abstract saturday building A
+\newcommand{\sundayabstract}[7]%
+{%
+\newpage%
+\ifthispageodd{\ThisCenterWallPaper{1.0}{sunday_r}}{\ThisCenterWallPaper{1.0}{sunday_l}}
+\renewcommand{\talktime}{#1}
+\renewcommand{\talkroom}{#2}
+\thispagestyle{scrheadings}
+\noindent \emph{#3}%
+\vspace{0.75em}
+{\par\noindent\large \sectfont #4}%
+\vspace*{0.35em}%
+{\par\noindent\bfseries \normalsize \sectfont #5}
+\vspace{1em}
+\par\noindent #7 \par%
+\vspace*{0.35em}%
+{\em{#6}}%
+\cropmarkswallpaper%
+}
 
-\abstractwithspeaker{8:00}{Amalienstraße}{Jerry Clough}{Woodland and Wetland Mapping}%
+
+\sundayabstract{8:00}{Amalienstraße}{Jerry Clough}{Woodland and Wetland Mapping}%
 {Sunday Morning Excursion}%
 {}%
 {This is an opportunity for interested mappers to work together in the
@@ -12,14 +32,14 @@ Participants are advised to bring appropriate footwear, sunscreen/rain gear, mos
 Follow @SK53onOSM on Twitter for updates and last-minute changes.
 }
 
-\abstractwithspeaker{10:00}{Amalienstraße}{Jochen Topf}{Osmium to the Rescue}%
+\sundayabstract{10:00}{Amalienstraße}{Jochen Topf}{Osmium to the Rescue}%
 {Solving OSM Problems with Osmium}%
 {Jochen has been an active OSM contributor and developer of OSM software since 2006. He is co-author of a book about OSM (http://www.openstreetmap.info). He has turned his OSM hobby into a business developing software and as consultant on all things OSM and geo. More at http://jochentopf.com/ . }%
 {Osmium is a highly flexible and performant C++ library for working with OpenStreetMap data. Built on top of this library are a command line tool and a Node.JS module. This suite of software can be used for many tasks, from keeping history planets current, to creating statistics, to converting OSM data in many different GIS formats. This workshop presents several typical problems from the OpenStreetMap world and shows how they can be solved using the Osmium library, the Osmium command line tool, or the Node.JS module. 
 
 You can find more about Osmium and related software at http://osmcode.org/. }
 
-\abstractwithspeaker{11:00}{Amalienstraße}{Roland Olbricht}{Overpass API v0.7.50}%
+\sundayabstract{11:00}{Amalienstraße}{Roland Olbricht}{Overpass API v0.7.50}%
 {The Temporal Dimension}%
 {Roland has been a mapper since 2008. He started Overpass API in 2009 to make OpenStreetMap data more accessible. He has a PhD in pure mathematics, a strong background in computer science, and a passion for high performance algorithms and transport networks. Currently he works as a computer scienst at Fraunhofer SCAI in Bonn. }%
 {With OpenStreetMap getting more mature, it becomes more important to track changes. But doing so is difficult for various reasons: Changeset comments can be misleading, destruction may be hidden in innocent looking changes, and the sheer amount of data prohibits a complete manual review. For that reason Overpass API provides, from version 0.7.50 on, the complete history since the license change. 
@@ -27,13 +47,13 @@ You can find more about Osmium and related software at http://osmcode.org/. }
 In this workshop we'll demonstrate the commands to access that history. We explain how these features allow building powerful client JavaScript only websites that can track changes with arbitrary search criteria. We will discuss what remains to be done to build a complete and logically consistent revert tool based on Overpass API v0.7.50. }
 
 
-\abstractwithspeaker{14:00}{Amalienstraße}{Andy Allan}{OpenStreetMap Carto}%
+\sundayabstract{14:00}{Amalienstraße}{Andy Allan}{OpenStreetMap Carto}%
 {The State of the Style Sheets---One Year On}%
 {Andy is a freelance digital cartographer and open-source geospatial developer. He has been creating maps from OSM data since 2007 and started the OpenStreetMap Carto project in November 2012. }%
 { In this workshop we will review our progress over the last 12 months, lay out the future roadmap and look at some of the interesting projects that have used OpenStreetMap Carto as a foundation. We will also find the time to discuss individual design choices and issues, and methods to fix them.
 }
 
-\abstractwithspeaker{15:00}{Amalienstraße}{Martijn van Exel}{MapRoulette Next Generation}%
+\sundayabstract{15:00}{Amalienstraße}{Martijn van Exel}{MapRoulette Next Generation}%
 {User Defined Challenges}%
 {Martijn's bond with OpenStreetMap dates back to 2007, when he attended his first mapping party in Amsterdam. He was hooked and became a community leader in the Netherlands. He continued this role when he moved to the United States in 2011. He has been serving on the United States Chapter board since then - the last two years as president. Martijn works at Telenav, a global provider of personal navigation software, as an OSM expert. }%
 {TBD
