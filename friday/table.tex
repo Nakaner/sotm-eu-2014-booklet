@@ -15,14 +15,16 @@
 
 \newcommand{\coffeespace}{\vspace{0.4em}}
 
+% Farben definieren
 \definecolor{commongray}{gray}{.9}
+\definecolor{a}{cmyk}{.11,0,.03,.08}
+\definecolor{b}{cmyk}{0,.03,.22,.03}
 
 \renewcommand{\arraystretch}{1.4}
 \begin{longtabu}{XX[4l]X[4l]}
 % \toprule
-\rowcolor{commongray}
-& \multicolumn{1}{c}{Building B}
-& \multicolumn{1}{c}{Building A} \tabularnewline
+& \multicolumn{1}{c}{\cellcolor{b} Building B}
+& \multicolumn{1}{c}{\cellcolor{a} Building A} \tabularnewline
 \endhead
 % \midrule
 09:30 
