@@ -58,7 +58,49 @@
 {\em{#2}}%
 }
 
-\abstractwithspeaker{10:00}{Building B}{Dennis Luxen}{Everything But Directions}%
+
+% abstract friday building A
+\newcommand{\fridayabstracta}[7]%
+{%
+\newpage%
+\ifthispageodd{\ThisCenterWallPaper{1.0}{building_a_friday_r}}{\ThisCenterWallPaper{1.0}{building_a_friday_l}}
+\renewcommand{\talktime}{#1}
+\renewcommand{\talkroom}{#2}
+\thispagestyle{scrheadings}
+\noindent \emph{#3}%
+\vspace{0.75em}
+{\par\noindent\large \sectfont #4}%
+\vspace*{0.35em}%
+{\par\noindent\bfseries \normalsize \sectfont #5}
+\vspace{1em}
+\par\noindent #7 \par%
+\vspace*{0.35em}%
+{\em{#6}}%
+\cropmarkswallpaper%
+}
+
+% abstract friday building B
+\newcommand{\fridayabstractb}[7]%
+{%
+\newpage%
+\ifthispageodd{\ThisCenterWallPaper{1.0}{building_b_friday_r}}{\ThisCenterWallPaper{1.0}{building_b_friday_l}}
+\renewcommand{\talktime}{#1}
+\renewcommand{\talkroom}{#2}
+\thispagestyle{scrheadings}
+\noindent \emph{#3}%
+\vspace{0.75em}
+{\par\noindent\large \sectfont #4}%
+\vspace*{0.35em}%
+{\par\noindent\bfseries \normalsize \sectfont #5}
+\vspace{1em}
+\par\noindent #7 \par%
+\vspace*{0.35em}%
+{\em{#6}}%
+\cropmarkswallpaper%
+}
+
+
+\fridayabstractb{10:00}{Building B}{Dennis Luxen}{Everything But Directions}%
 {All the Other Exciting Things to Do with Routing}%
 {Dennis Luxen, the lead developer of Open Source Routing Machine, a high-performance routing engine, is an algorithm engineer at heart. He holds a MSc as well as a PhD in computer science. His work focuses on highly scalable route planning and mapping services. Dennis is currently working at Mapbox. }%
 {This talk explores the benefits of a state-of-the-art routing engine that go beyond the means to get simple driving or walking directions. We explore how 
@@ -68,14 +110,14 @@ among a couple of further use cases.
 With the challenge of handling an ever-growing data set, it is important to use methods that handle data efficiently and can keep up with the data growth and change rates. The talk shows how the combination of academic algorithm engineering and the crowd-sourced data 
 of OpenStreetMap delivers not only superior features but also a superior user experience.}
 
-\abstractwithspeaker{10:00}{Building A}{Ilya Zverev }{I've bought a car for mapping, now what?}%
+\fridayabstracta{10:00}{Building A}{Ilya Zverev }{I've bought a car for mapping, now what?}%
 {First: glue an ``OpenStreetMap'' sticker to it}%
 {Ilya Zverev---Zverik---is a long time mapper who likes to go outside. He's the editor of SHTOSM, a Russian OSM news blog, and an organizer of some mapping parties and conferences. }%
 {The author focuses on field mapping: collecting data on the move, both on a car's passenger seat with a notebook, and behind the wheel, when you cannot spare a second to look away from the road. There will be a history of attempts at mapping as much as possible, sometimes with large-scale projects and examples of what commercial providers can do. 
 
 Entering data into OpenStreetMap is also a major problem: it has to be easy to be done on large scale. The topic affects mapping on feet and on bicycle, since the concepts developed will affect field mapping in general. Finally, the main question: do you really need a 4x4 vehicle for mapping Russia?}
 
-\abstractwithspeaker{11:00}{Building B}{Marco Quaggiotto}{BikeDistrict---The Smart City by Bicycle}%
+\fridayabstractb{11:00}{Building B}{Marco Quaggiotto}{BikeDistrict---The Smart City by Bicycle}%
 {Crowdsourced Tools to Support Urban Cyclists and Urban Bike Planning}%
 {Marco Quaggiotto has a PhD in Industrial Design and Multimedia Communication and is currently a lecturer and research fellow at the Polytechnic of Milan. He is also co-founder of BikeDistrict.}
 {This talks presents the experience of two years in the BikeDistrict project, a 
@@ -84,7 +126,7 @@ An intelligent "street rating" system has been developed for the BikeDistrict ma
  
 BikeDistrict has the ability to identify critical infrastructural gaps, to evaluate the potential benefits of specific interventions on the bicycle network and in general to support the planning activities by providing real-time-data and analysis related to the infrastructure condition and demand patterns. BikeDistrict is capable of collecting valuable information about the bike mobility demand and the perception of quality of the road infrastructure and the bike facilities, expressed directly by the bike users. }
 
-\abstractwithspeaker{11:00}{Building A}{Thilo Stapff, Johannes Bouchain }{Opengeofiction}%
+\fridayabstracta{11:00}{Building A}{Thilo Stapff, Johannes Bouchain }{Opengeofiction}%
 {Using OSM Software in Mapping a Fictional Planet}%
 {Thilo Stapff has always been fascinated by maps, real or imaginary. 
 He studied Mathematics and works as a software developer in Frankfurt. Johannes Bouchain, from Hamburg, has been interested in (imaginary) cartography since childhood. He is a web designer/urban planner. Together they founded Opengeofiction in 2013.  }%
@@ -93,7 +135,7 @@ He studied Mathematics and works as a software developer in Frankfurt. Johannes 
 Employing the OSM software has taken our fictional mapmaking to a whole new level, not only for practical reasons, but also because it has transformed a somewhat solitary hobby into a collaborative activity with a growing community. While at a first glance Opengeofiction might look like a miniature version of OSM itself, there are also some key differences. We will explain why the OSM software stack is generally very well suited for our project, but also discuss areas where it does not fit quite as well.
 }
 
-\abstractwithspeaker{11:30}{Building B}{Thomas Jakubicka }{The Use of OSM Data in Journey Planning}%
+\fridayabstractb{11:30}{Building B}{Thomas Jakubicka }{The Use of OSM Data in Journey Planning}%
 {An Example From Railway Routing}%
 {Thomas Jakubicka is responsible for project management at Mentz Datenverarbeitung. He is especially involved in many projects related to OSM.}%
 {The continually improving accuracy, grade of detail and completeness in OSM data on the one hand and the always rising demand for data with higher information density, has drawn the attention of public transport operators and authorities towards OSM. Furthermore open governmental data becomes more and more important to public transport services and the idea of OSM supplements this approach.
@@ -102,7 +144,7 @@ Mentz Datenverarbeitung (mdv) is developing journey planning systems and therefo
 
 
 
-\abstractwithspeaker{11:30}{Building A}{Sven Geggus}{Map Rendering Beyond Mapnik}%
+\fridayabstracta{11:30}{Building A}{Sven Geggus}{Map Rendering Beyond Mapnik}%
 {A Presentation of the Two Major FOSS Alternatives: Mapserver and Geoserver}%
 {Sven Geggus is long-time GIS and open source evangelist, and sysadmin of a couple of openstreetmap.de servers.}%
 {Discussing map rendering and tile servers in a group of OpenStreetMap activists makes it sound as if there is only one software in the world that can be used to do this job---namely Mapnik.
@@ -112,12 +154,12 @@ known outside the FOSSGIS/OSGeo community even though they predate Mapnik: Geose
 
 I will show some simple rendering examples for both of them (and Mapnik as a reference), and discuss the advantages and disadvantages of each particular software.}
 
-\abstractwithspeaker{12:00}{Building B}{Michael Collinson}{The State of the License }%
+\fridayabstractb{12:00}{Building B}{Michael Collinson}{The State of the License }%
 {The First Two Years of ODbL}%
 {Mike has been a mapper since 2005. He served as Secretary on the the OpenStreetMap Foundation board and is currently Chair of the License Working Group. }%
 {An overview about the work of the OSMF License Working Group since the license change, and an opportunity to ask questions and discuss problems. }
 
-\abstractwithspeaker{12:00}{Building A}{Stephan Bösch-Plepelits }{pgmapcss---Advanced Cartography for Mapnik}%
+\fridayabstracta{12:00}{Building A}{Stephan Bösch-Plepelits }{pgmapcss---Advanced Cartography for Mapnik}%
 {Implementing MapCSS by Moving the Cartography Into the Database}%
 {Stephan Bösch-Plepelits is interested in computer science and urban planning. He started mapping in 2008, and in OSM his main projects are OpenStreetBrowser and pgmapcss. Stephan loves hacking. http://plepe.at }%
 {pgmapcss combines MapCSS (a more or less standardized map description language) with Mapnik (a widely used map renderer for vector or raster maps). In contrast to other attempts at using CSS-like styling, the actual cartography process (evaluating which map features should be rendered  in the current view and how) is moved into a database function, using PL/Python3 in a PostgreSQL database. Mapnik just needs to read the final properties - e.g. geometry, widths, colors, texts, and so on.
@@ -146,7 +188,7 @@ On Saturday just before lunch we're planning to do our group photo;
 details will be announced.
 \cropmarkswallpaper
 
-\abstractwithspeaker{14:00}{Building B}{Stefan Keller}{State of the Kort Game}%
+\fridayabstractb{14:00}{Building B}{Stefan Keller}{State of the Kort Game}%
 {The First OpenStreetMap Mobile Mini Game Goes Public}%
 {Stefan Keller is professor for information systems at the University for Applied Sciences (UAS/HSR) in Rapperswil (Switzerland). He leads the (OSGeo) Geometa Lab at Institute for Software. He teaches database management systems as well as geographic information systems (GIS) at Bachelor and Master level, as well as in advanced studies. Open Source and volunteered geographic information (VGI) play a role in many of his projects. }%
 {Kort ist a mobile web app to fix OpenStreetMap data. It runs on the most common browsers. The app uses the concept of gamification. Game-like elements like points (so-called ``Koins'') are collected by the players by fulfilling a mission, like adding names to POIs without one. All proposed solutions are validated by other players. Once three players aggreed on a proposal, it is integrated on OpenStreetMap.
@@ -154,23 +196,23 @@ details will be announced.
 This is a report about our efforts to let volunteers contribute additional mission types. Besides a restructuring of mission types and internal refactoring issues, the main question is how to design the user and machine-oriented interface. (http://www.kort.ch)}
 
 
-\abstractwithspeaker{14:00}{Building A}{Andy Allan}{Lightning Map Tiles}%
+\fridayabstracta{14:00}{Building A}{Andy Allan}{Lightning Map Tiles}%
 {A Vector Approach to Raster Maps}%
 {Andy Allan created the OpenCycleMap map layer in 2007, and is now providing high-quality map tiles to hundreds of applications and websites through his Thunderforest mapping platform. He is also the author of the CartoCSS version of the ``Standard OpenStreetMap Style'' (see workshop on p. 43).}%
 {Many of the maps you see created from OpenStreetMap data use the battle-hardened mod\_tile software stack to render images on-demand directly from a PostGIS database. To work around some of its inherent limitations, Andy started working on an alternative approach based on the mapnik-vector-tile software, storing the map data in protocol-buffer based vector tiles. This opens up a range of cartographic features, from faster map drawing times to easing the burden of hosting multiple styles. Andy will discuss the approaches taken, the pitfalls encountered and the future possibilities that this vector tile approach brings.}
 
 
-\abstractwithspeaker{14:30}{Building B}{Dietmar Seifert}{OSM housenumber evaluation}%
+\fridayabstractb{14:30}{Building B}{Dietmar Seifert}{OSM housenumber evaluation}%
 {Improving address quantity and quality through automated analyses}%
 {Dietmar Seifert has been an OSM contributor for about four years, active in the forum and best known in the German  community for his automated street list and housenumber reports.}%
 {OpenStreetMap is set to cover more and more addresses. This talk demonstrates a tool designed to automatically detect missing house numbers, by comparing data from OSM with data retrieved from a city council or similar authority. The government data doesn't have to have a geo component---simple lists are sufficient. This approach has been used with good results in various places in Germany, and also includes a method to generate feedback to the administration (whose data is often less than perfect).}
 
-\abstractwithspeaker{14:30}{Building A}{Konstantin Käfer}{Rendering Maps with OpenGL}%
+\fridayabstracta{14:30}{Building A}{Konstantin Käfer}{Rendering Maps with OpenGL}%
 {How to render a vast dataset like OSM on mobile devices}%
 {After studying IT Systems Engineering in Potsdam, Konstantin Käfer joined Mapbox and now works mainly on map rendering.}%
 {Rendering maps on the client becomes more important as technologies emerge and devices get faster. While most maps are still served as raster tiles, there is a case for delivering vectors to the client and having them rendered on the device. This talk will review existing rendering techniques and data formats, and point out their advantages and disadvantages.}
 
-\abstractwithspeaker{15:00}{Building B}{Christian Quest}{State of the tools of OSM France}%
+\fridayabstractb{15:00}{Building B}{Christian Quest}{State of the tools of OSM France}%
 {OSM France develop and maintain a number of tools---let's take a tour}%
 {Christian Quest, 48, lives near Paris. He has been an OSM contributor
 since 2009, and he's a founding member and the current president of
@@ -184,7 +226,7 @@ paragliding and genealogy.}%
 
 
 
-\abstractwithspeaker{15:00}{Building A}{Brett Camper}{Tesselator’s Delight}%
+\fridayabstracta{15:00}{Building A}{Brett Camper}{Tesselator’s Delight}%
 {Introduction to OpenStreetMap for WebGL}%
 {Brett Camper is interested in graphics programming, data visualization, game and interface design, and related areas. He recently helped start Mapzen, a company focused on developing tools and apps to improve open source geo.}%
 {In the past couple years, WebGL has moved from an emerging technology to a widely supported one, providing a promising and powerful toolkit for rendering OSM data in the browser. But WebGL is often daunting and foreign to web programmers, and surprisingly few resources are available to learn.
@@ -192,12 +234,12 @@ paragliding and genealogy.}%
 In this talk I hope to help demystify WebGL for OSM, introducing the basics of a rendering pipeline using open source code examples, including: getting data from the server via GeoJSON or binary vector tiles, turning OSM geometries into triangle primitives ("tessellation"), constructing neatly joined polygonal line segments, extruding building outlines into 3D models, and creating lighting or perspective effects. All presented code is open source and also available as a Leaflet plugin, making it easily accessible to developers who want to experiment with adding WebGL and 3D components to their maps.}
 
 
-\abstractwithspeaker{16:00}{Building B}{Frédéric Rodrigo}{Osmose}%
+\fridayabstractb{16:00}{Building B}{Frédéric Rodrigo}{Osmose}%
 {A quality assurance tool for detecting and fixing errors and integrating OpenData}%
 {Frédéric Rodrigo is secretary of OpenStreetMap France, a freelancer in geomatics, and works on quality tools and a couple other development projects around OSM.}%
 {Osmose is one of many quality assurance tools available to detect errors and inconsistencies in OpenStreetMap data. It is also useful for integrating OpenData. Osmose has more than 250 different data checks, and the number of analyses is still rising. We're also rolling it out for more countries. With the latest funding, Osmose will also get an integrated tag editor usable on desktop and mobile.}
 
-\abstractwithspeaker{16:00}{Building A}{Jan Marsch}{OSM Buildings}%
+\fridayabstracta{16:00}{Building A}{Jan Marsch}{OSM Buildings}%
 {Now and next}%
 {Jan Marsch is from Berlin, Germany and has been software engineer for desktop and mobile web applications for about 16 years. By doing some projects for Nokia Maps five years ago, he got addicted to maps. His technical focus is on JavaScript, HTML5, Canvas, REST, PHP and databases. Other strenghts are entrepreneural thinking, performance optimization and user experience. He is happy working with small companies but also did long term projects for Here, Daimler, Bayer, Deutsche Lufthansa and TNT.}%
 {I'll give you an introduction to OSM Buildings, a project to visualize OpenStreetMap building geometry in modern web browsers. You'll learn what its render modes are and how easily it integrates with existing web map engines.
@@ -209,19 +251,19 @@ Furthermore I’ll explain how OSM Buildings compares to similar projects and wh
 Meanwhile, follow @OSMBuildings on Twitter!}
 
 
-\abstractwithspeaker{16:30}{Building B}{Serge Wroclawski}{MapRoulette 2: Electric Boogaloo}%
+\fridayabstractb{16:30}{Building B}{Serge Wroclawski}{MapRoulette 2: Electric Boogaloo}%
 {It's back, it's real, and it's fun}%
 {Serge Wroclawski is a longstanding member of the OpenStreetMap community. He's one of the founders of OSM US, and member of the OSMF Data Working Group member. He's also the author of ``Why the World Needs OpenStreetMap'', a blog post that has made headlines in early 2014.}%
 {MapRoulette has been undergoing a major rewrite for nearly two years, but the new version is finally out. In this presentation, you will learn about MapRoulette's history and about what's new in the current version, as well as what the future may hold.}
 
-\abstractwithspeaker{16:30}{Building A}{Vladimir Elistratov}{2.5D maps and bird views with Blender}%
+\fridayabstracta{16:30}{Building A}{Vladimir Elistratov}{2.5D maps and bird views with Blender}%
 {Creating 2.5D maps and bird views with OpenStreetMap and Blender}%
 {Vladimir Elistratov works as a developer of web mapping applications. He an is OSM contributor since 2008. }%
 {2.5D maps are ordinary 2D maps in the web Mercator projection enhanced with a layer of 3D buildings rendered in the oblique projection. A birdview is an attractive way to realistically represent neighborhood. Realistic 3D models of buildings are used in both cases.
 
 This talk presents a method of using the Blender open source software to add 3D buildings to an OpenStreetMap map, capable of composing whole cities of 3D buildings. Different ways of adding these buildings to a Mapnik rendering are discussed. SRTM data is used to place buildings on terrain; if necessary, terrain data is edited manually in Blender. Another key problem for bird views is to develop attractive 3D representation for numerous street objects like trees, street lights, fences, benches, bus stops, etc.}
 
-\abstractwithspeaker{17:00}{Building A}{Maxim Rylov }{Cartographically Plausible Label Placement}%
+\fridayabstracta{17:00}{Building A}{Maxim Rylov }{Cartographically Plausible Label Placement}%
 {A Multi-criteria Model for Good Point-label Placement on OSM Maps}%
 {Maxim Rylov is a PhD student in GIScience Research Group, Department of Geography, Heidelberg University. His main research interests are digital and web cartography, automated label placement, computational geometry and GIS mapping.}%
 {Cartographic label placement is a very important aspect of a map production. This task is essential for both traditional and automated cartography. Every OSM-based map is annotated using a labeling algorithm in one of the existing toolkits for rendering maps. However, none of these algorithms is able to take into account a rich set of well-established cartographic guidelines for feature annotation used by human cartographers. Assigning names to point-features is one of the map lettering tasks. In our talk we present an approach, expressed as a multi-criteria optimization model, that complies with almost all well-defined cartographic placement principles and requirements for point-feature label placement. We show how this approach allows a significant increase in toponym density on an OSM-based map without effecting readability and legibility.}

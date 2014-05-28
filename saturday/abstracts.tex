@@ -1,17 +1,57 @@
+% abstract saturday building A
+\newcommand{\saturdaydayabstracta}[7]%
+{%
+\newpage%
+\ifthispageodd{\ThisCenterWallPaper{1.0}{building_a_saturday_r}}{\ThisCenterWallPaper{1.0}{building_a_saturday_l}}
+\renewcommand{\talktime}{#1}
+\renewcommand{\talkroom}{#2}
+\thispagestyle{scrheadings}
+\noindent \emph{#3}%
+\vspace{0.75em}
+{\par\noindent\large \sectfont #4}%
+\vspace*{0.35em}%
+{\par\noindent\bfseries \normalsize \sectfont #5}
+\vspace{1em}
+\par\noindent #7 \par%
+\vspace*{0.35em}%
+{\em{#6}}%
+\cropmarkswallpaper%
+}
 
-\abstractwithspeaker{09:30}{Building B}{Victor Olaya}{Versioning OSM data with GeoGit}%
+% abstract saturday building B
+\newcommand{\saturdayabstractb}[7]%
+{%
+\newpage%
+\ifthispageodd{\ThisCenterWallPaper{1.0}{building_b_saturday_r}}{\ThisCenterWallPaper{1.0}{building_b_saturday_l}}
+\renewcommand{\talktime}{#1}
+\renewcommand{\talkroom}{#2}
+\thispagestyle{scrheadings}
+\noindent \emph{#3}%
+\vspace{0.75em}
+{\par\noindent\large \sectfont #4}%
+\vspace*{0.35em}%
+{\par\noindent\bfseries \normalsize \sectfont #5}
+\vspace{1em}
+\par\noindent #7 \par%
+\vspace*{0.35em}%
+{\em{#6}}%
+\cropmarkswallpaper%
+}
+
+
+\saturdayabstractb{09:30}{Building B}{Victor Olaya}{Versioning OSM data with GeoGit}%
 {Decentralized versioning for OSM}%
 {Victor Olaya is developer at Boundless, QGIS developer, and the main author of the QGIS processing framework.}%
 {GeoGit is a decentralized versioning tool for geospatial data. This talk introduces GeoGit and discusses some of its OSM-specific features. These features bring the advantages of decentralized versioning to OSM and improve the management of OSM data.}
 
-\abstractwithspeaker{09:30}{Building A}{João Porto de Albuquerque}{Identifying Elements at Flood Risk with Volunteered Geographic Information}%
+\saturdaydayabstracta{09:30}{Building A}{João Porto de Albuquerque}{Identifying Elements at Flood Risk with Volunteered Geographic Information}%
 {An Approach based on OpenStreetMap with a Case Study in Cologne}%
 {João Porto de Albuquerque is visiting Professor at Heidelberg University and Professor at University of Sao Paulo, currently researching on Collaborative Systems and VGI for Disaster Risk Management. }%
 {The identification of elements at risk is an essential part in Hazard Risk Assessment. Especially for recurring natural hazards like floods, an updated database with information about critical elements at flood risk (e.g. schools, hospitals etc.) is fundamental to support crisis preparedness and response activities. However, acquiring and maintaining an up-to-date database with elements at risk requires both detailed local knowledge and hazard-specific constraints, being often a challenge for local communities due to lack of expertise and appropriate funding, deferred priorities and complex political determinations.
 
 This talk presents a new approach for leveraging OpenStreetMap to automatically identify hazard-specific elements at risk. We provide a new data model for extracting elements at risk from OSM and conduct a case study in the city of Cologne, Germany to validate our approach.}
 
-\abstractwithspeaker{10:00}{Building B}{Oliver Tonnhofer}{Imposm}%
+\saturdayabstractb{10:00}{Building B}{Oliver Tonnhofer}{Imposm}%
 {The Other PostGIS Import Tool}%
 {Oliver Tonnhofer is the lead developer of Imposm and MapProxy. He is also co-founder of Omniscale, a German IT firm specialized in fast geographical maps and the acceleration of existing geospatial data infrastructure.}%
 {Imposm is an open source tool that imports OpenStreetMap data into PostGIS databases.
@@ -19,7 +59,7 @@ This talk presents a new approach for leveraging OpenStreetMap to automatically 
 Imposm is fast and flexible. It supports custom database schemas and can generalize complex geometries for efficient rendering.
 The presentation will show you how Imposm works and in which ways it differs from osm2pgsql. You will also learn about the status of the upcoming Imposm 3 release, which will feature incremental update support and performance improvements.}
 
-\abstractwithspeaker{10:00}{Building A}{Francesca Murtas }{SardSOS: More than a Map}%
+\saturdaydayabstracta{10:00}{Building A}{Francesca Murtas }{SardSOS: More than a Map}%
 {An Emergency Call. When Mappers Go United\dots}%
 {Francesca Murtas is an interaction designer. Mapping is a state of mind.}%
 {I would like to share and talk about my experience with the free map SardSOS that I've created while confronting with the devastating floods which damaged my island, Sardinia, in November 2013. I've built an open crowdmap on the Ushahidi platform (http://sardsos.crowdmap.com/) which has been visited by nearly 14,000 people in the first week.
@@ -28,7 +68,7 @@ This project has also triggered the release of open geo-data from the Sardinian 
 
 I will also report about an independent online research, after the emergency, aimed at checking the use and the perception of people of OpenStreetMap and mapping for emergencies.}
 
-\abstractwithspeaker{11:00}{Building B}{Roland Olbricht}{Sparse Editing}%
+\saturdayabstractb{11:00}{Building B}{Roland Olbricht}{Sparse Editing}%
 {Editing Large Scale Objects}%
 {Roland has been a mapper since 2008. He started Overpass API in 2009 to make OSM data more accessible. He has a PhD in pure mathematics, a strong background in computer science, and a passion for high performance algorithms and transport networks. Currently he works as a computer scienst at Fraunhofer SCAI in Bonn. }%
 {While OpenStreetMap has an impressive data quality on small scale objects, large scale objects are often only mapped in low quality. One example is the often discussed subject of mapping public transport services, and indeed these are far from complete or consistent.
@@ -37,21 +77,21 @@ The deeper reason for this is that editing large scale objects is exceptionally 
 
 In this talk we will analyze which typical kinds of dependencies exist and discuss various approaches like route suggestion or mapping on a filtered subset of data. As a hands-on example it is shown how to efficiently recover a lost name tag on the river Rhine by editing an area of more than a hundred kilometers extent in JOSM.}
 
-\abstractwithspeaker{11:00}{Building A}{Harald Koertge}{Efficient Routing for Mobile Systems}%
+\saturdaydayabstracta{11:00}{Building A}{Harald Koertge}{Efficient Routing for Mobile Systems}%
 {Focussing on OSM and Comparing Against Routing with Professional Data}%
 {Harald Koertge founded his first company developing navigation systems in 1997 for PalmOS devices. Since that time, he has developed and designed multiple generations of map data models, routing engines, etc. for commercial and OSM data.}%
 {As OSM is gaining more traction for usage in navigation and routing for mobile devices and applications, it’s important to understand the differences between commercial map data and OSM data, particularly for effective route calculations. 
 
 Following a brief history of routing engines that were primary developed for high performance usage on mobile devices, I will share what and where the challenges are in OSM versus commercial/professional data, from the perspective of having been entrenched in both worlds for many years.}
 
-\abstractwithspeaker{11:30}{Building B}{Simon Legner}{The JOSM Editor}%
+\saturdayabstractb{11:30}{Building B}{Simon Legner}{The JOSM Editor}%
 {Current Development and Data Validation with MapCSS}%
 {Simon Legner has been a JOSM developer since 2011, an OSM mapper since 2008, and is a computer scientist.}%
 {JOSM is a Java-based offline editor for OpenStreetMap which has been around since 2005. A recurring challenge for editors is validating user input, guiding mappers towards making as few mistakes as possible.
 
 This talk will provide insights in the current development. Emphasis will be on the use of the MapCSS styling system for data validation, a technique which has been developed in recent months.}
 
-\abstractwithspeaker{12:00}{Building B}{Oliver Kaleske}{Wall·E}%
+\saturdayabstractb{12:00}{Building B}{Oliver Kaleske}{Wall·E}%
 {An OpenStreetMap Bobot}%
 {Oliver Kaleske is a physicist, working in software development, and has been an OSM contributor since 2010.}%
 {Wall·E is a maintenance robot I have been operating on OpenStreetMap in Germany since the end of 2012. The edits performed range from simple tasks such as the reduction of repeatedly referenced nodes in
@@ -61,7 +101,7 @@ reflects the rather conservative editing strategy employed, which includes sever
 The talk will cover some of the technical aspects (filtering patterns, tools involved, safety measures) as well as the robot's history starting from xybot, an earlier OSM robot which served as
 a model for many of Wall·E's functions, and some remarks on the role of robots within the social system of OSM.}
 
-\abstractwithspeaker{14:00}{Building B}{Tim Teulings}{Introduction to libosmscout}%
+\saturdayabstractb{14:00}{Building B}{Tim Teulings}{Introduction to libosmscout}%
 {A C++ Library for Offline Rendering and Routing}%
 {Tim Teulings has been an open source and professional software developer for more than 25 years (now 43 years old). He has developed a number of open source products over the years, most with a small user base. He has been working on libosmscout since around summer 2009 with an increasing user base and even some code contributions.}%
 {Libosmscout is a C++ library for offline map rendering, location look-up and routing. It targets mobile devices as well as the desktop, and is is highly customizable.
@@ -69,7 +109,7 @@ a model for many of Wall·E's functions, and some remarks on the role of robots 
 The talk introduces you to the project by showing potential use cases, presenting main features, giving a few simple code examples and some technical background. Discussion is expected and encouraged.}
 
 
-\abstractwithspeaker{14:00}{Building A}{Kirill Bondarenko}{OSM: World Map or Set of Local Maps?}%
+\saturdaydayabstracta{14:00}{Building A}{Kirill Bondarenko}{OSM: World Map or Set of Local Maps?}%
 {Pecularities of National Mapping}%
 {Kirill Bondarenko has been an OSM editor since 2009. His primary interest is using OSM data in navigation software. He also maintains some validatation tools for the Russian community.}%
 {Each country has peculiarities, and OpenStreetMap data is no exception. These national differnces can become a big problem  if you want a true OSM based world map, e.g. a routable map for PNA.
@@ -77,7 +117,7 @@ The talk introduces you to the project by showing potential use cases, presentin
 I will discuss local mapping rules and techniques, mainly about Russia in comparison with Europe, that concern the tagging of common objects, address schemas, the road classification, and other areas.}
 
 
-\abstractwithspeaker{14:30}{Building B}{Thomas Graichen}{A Combined In/Outdoor Map for Android}%
+\saturdayabstractb{14:30}{Building B}{Thomas Graichen}{A Combined In/Outdoor Map for Android}%
 {A Seamless Indoor and Outdoor Map Viewer for OpenStreetMap Data and its Implementation}%
 {Thomas Graichen studied information engineering at the Technische Universität Chemnitz. He is currently member of the scientific staff of the Chair for Circuit and System Design, interested in hiking, biking and therefore in OSM outdoor maps, too.}%
 {Although the OSM community has built several indoor projects, an Android application for viewing indoor maps remains unavailable. As part of an electric mobility project, the group at TU Chemnitz has developed an application that fills this gap.
@@ -86,14 +126,14 @@ The concept and an overview of the chosen implementation shall be presented here
 
 Furthermore future developments and possible usage scenarios for this map application are presented.}
 
-\abstractwithspeaker{14:30}{Building A}{Daniel Kastl}{Where the Streets Have no Name}%
+\saturdaydayabstracta{14:30}{Building A}{Daniel Kastl}{Where the Streets Have no Name}%
 {Mapping in Japan}%
 {Daniel Kastl is a geographer, mapper, software developer, open source and open data advocate. He was born in Germany but is currently living in Japan.}%
 {From a European or North American perspective many things seem to be clear, but what you take as granted in a ``Western'' country is likely to be different somewhere else.
 
 This talk gives an example of how a street-based address schema can become a real headache in countries which don't know street names.}
 
-\abstractwithspeaker{14:50}{Building A}{Dirk Helbing}{How to Create a Better World}%
+\saturdaydayabstracta{14:50}{Building A}{Dirk Helbing}{How to Create a Better World}%
 {State of the Map EU 2014 Keynote Speech}%
 {Dirk Helbing is Professor of Sociology, in particular of Modeling and 
 Simulation, and member of the Computer Science Department at ETH Zurich. 
@@ -116,14 +156,14 @@ tragedies of the commons, and exploitation, and to create the framework
 for a Participatory Market Society, where everyone can be better off.}
 
 
-\abstractwithspeaker{16:00}{Building B}{Cristian Consonni}{Creating a bridge between OpenSteetMap and Wikipedia: Wikipedia-tags-in-OSM}%
+\saturdayabstractb{16:00}{Building B}{Cristian Consonni}{Creating a bridge between OpenSteetMap and Wikipedia: Wikipedia-tags-in-OSM}%
 {A tool to add Wikipedia tags in OSM and coordinates in Wikipedia}%
 {Cristian Consonni is researcher at the ``Digital Commons Lab'' unit of the Fondazione Bruno Kessler (FBK), in Trento, Italy, Wikimedia Italia's vicepresident and Wikipedian, free software activist, physicist and storyteller.}%
 {When you visit a Wikipedia article for a monument or a place (e.g. the Colosseum) you can find a link which will display the same object highlighted on OpenStreetMap: this tool is called WIWOSM and it was created by German mapper and Wikipedian Kolossos. It works using the ``Wikipedia'' tags, i.e. wikipedia=language:article, added by volunteers in OSM.
 
 This presentation introduces a new tool called Wikipedia-tags-in-OSM (WTOSM) that makes easier to add the ``Wikipedia'' tags in OSM using JOSM ``remote control'' feature, and also allows adding coordinates in Wikipedia articles using the {{Coord}} template and OAuth authentication. This project is released as free software (GPLv3) on GitHub. We believe that it can help the OpenStreetMap community to discover new objects to map from Wikipedia pages and also it can create a bridge among the two projects.}
 
-\abstractwithspeaker{16:00}{Building A}{Peter Neubauer}{Mapillary -- the Missing View of the Planet}%
+\saturdaydayabstracta{16:00}{Building A}{Peter Neubauer}{Mapillary -- the Missing View of the Planet}%
 {An Update on the State of the Street}%
 {Peter is co-founder of open source projects such as Neo4j, OPS4J and Qi4j. Right now, Peter is concentrating on starting up Mapillary.com. He is a mentor helping startups at Startupbootcamp Copenhagen, Berlin and at Mozilla WebFD. He likes teaching programming to kids at CoderDojo Malmö and organizing events like http://www.thoughtmade.com and TEDx Öresund and LAN-parties for kids like kidscraft.se.}%
 {We want to create a photo representation of the world, a map with photos of every place on Earth. Current street view alternatives have so many limitations from the fact that they are created using cars with camera rigs, focusing on streets. There are many places on this planet that they will never get to, and even the places they do get to will not get updated as often as you might want them to. Together we can fix that. 
@@ -131,14 +171,14 @@ This presentation introduces a new tool called Wikipedia-tags-in-OSM (WTOSM) tha
 Also, Mapillary wants to provide the image data to OSM for enhancing that data. 
 Peter is going to talk about the technical and some of the legal aspects of the system and give some insights into the possible use cases and some existing (after just a few months) interesting usage.}
 
-\abstractwithspeaker{16:30}{Building B}{Alfonso Crisci}{Data Consistency in OpenStreetMap}%
+\saturdayabstractb{16:30}{Building B}{Alfonso Crisci}{Data Consistency in OpenStreetMap}%
 {Monitoring Consistency using Spatial Features and Tag Semantics}%
 {Alfonso Crisci is native biometerologist/geostatistician going to OSM-ollywood with some crazy ideas.}%
 {Monitoring consistency and reliability of maps is an important task when Volunteered Geographic Information (VGI) is involved and OpenStreetMap provides a good testing ground to develop operative methodologies that can be used as a web application. Two questions about data consistency are considered: for any given region (I) Is the level of spatial features density at a given scale enough for a suitable geographical description? (II) Is the semantics of the features (described by keys and tags) consistent and comprehensive?
 
 This talk presents preliminary results from work done by Alfonso Crisci (IBIMET-CNR), Maurizio Napolitano (FBK-Trento), Francesca De Chiara (FBK-Trento), Valentina Grasso (IBIMET-CNR, LaMMA Consortium), and Cristian Consonni (FBK-Trento).}
 
-\abstractwithspeaker{16:30}{Building A}{Gary Gale, Sarah Hoffmann, Dmitry Kiselev, Randy Meech}%
+\saturdaydayabstracta{16:30}{Building A}{Gary Gale, Sarah Hoffmann, Dmitry Kiselev, Randy Meech}%
 {Geocoding Session}%
 {It Sounds Easy but is it?}%
 {}%
@@ -165,7 +205,7 @@ country-specific processing of OSM data. Dmitry is a keen GIS programmer
 and has been involved in OSM since 2010.
 }
 
-\abstractwithspeaker{17:00}{Building B}{Jerry Clough}{Beyond the Three ``R''s}%
+\saturdayabstractb{17:00}{Building B}{Jerry Clough}{Beyond the Three ``R''s}%
 {Using OpenStreetMap Data for Analysis}%
 {Jerry Clough has been interested in maps since the age of four. He has a professional background in scientific research (Genetics, Computer Science) and business consultancy, and is an enthusiastic amateur naturalist. OSM forms a natural nexus between these diverse interests. }%
 {Most uses of OSM data fall into three categories, the three ``R''s: Rendering (cartography), Routing, and 'Rummaging' (search, geolocation). However, the large and diverse sets of data within OSM also have considerable potential for answering analytical questions.
