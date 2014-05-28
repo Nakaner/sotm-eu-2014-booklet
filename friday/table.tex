@@ -1,7 +1,7 @@
 \newpage
 \section*{Friday}\label{friday}
-
-
+\newcolumntype{Z}[1]{>{\raggedright\arraybackslash}p{#1}}%
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}%
 \newcommand{\talk}[2]%
 {%
 & \textbf{#1} \newline \emph{#2}
@@ -17,17 +17,25 @@
 
 % Farben definieren
 \definecolor{commongray}{gray}{.9}
-\definecolor{a}{cmyk}{.11,0,.03,.08}
-\definecolor{b}{cmyk}{0,.03,.22,.03}
-
+\definecolor{a}{cmyk}{0,.13,.35,.03}
+\definecolor{b}{cmyk}{.1,0,.17,.05}
+\vspace{-1.2em}
 \renewcommand{\arraystretch}{1.4}
-\begin{longtabu}{XX[4l]X[4l]}
+\begin{longtabu}{lZ{2.93cm}Z{2.93cm}}
+% \begin{tabular}{p{1cm}p{3cm}p{3cm}}
+% \begin{longtabu}{XX[4L]L{3cm}}
 % \toprule
 & \multicolumn{1}{c}{\cellcolor{b} Building B}
 & \multicolumn{1}{c}{\cellcolor{a} Building A} \tabularnewline
 \endhead
 % \midrule
-09:30 
+\rowcolor{commongray}
+09:00 & \multicolumn{2}{C{6.27cm}}{%
+\parbox[c]{14pt}{%
+\includegraphics[height=10pt]{cafe}%
+}
+\textbf{Registration} and morning coffee.} \tabularnewline
+09:30
 \talk{}{}
 \otherevent{Opening}
 \coffeespace\tabularnewline
@@ -49,7 +57,7 @@ coffee break} \tabularnewline
 \coffeespace\tabularnewline
 % \midrule
 11:30 
-\talk{The Use of OSM Data in Journey Planning}{Thomas Jakubicka}
+\talk{OSM Data in Journey Planning}{Thomas Jakubicka}
 \talk{Map Rendering Beyond Mapnik}{Sven Geggus}
 \coffeespace\tabularnewline
 % \midrule
