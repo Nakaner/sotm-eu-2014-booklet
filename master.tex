@@ -81,14 +81,18 @@ headsep=3mm, footskip=12mm
 \lsstyle
 \usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}
 
-\maketitle
-
 % Schneidemarken
 % Befehl zum Aufrufen definieren
 \newcommand{\cropmarkswallpaper}{%
 \CenterWallPaper{1.0}{crop-marks}%
 }
 \cropmarkswallpaper
+
+\begin{titlepage}
+\ClearWallPaper
+\includepdf{U1-titel}
+\cropmarkswallpaper
+\end{titlepage}
 
 \input{welcome/welcome}
 %\input{overview/overview}
