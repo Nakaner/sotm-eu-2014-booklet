@@ -43,12 +43,12 @@
      id="path4597"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <image
-     xlink:href="file:///home/fred/git.geofabrik.de/gf_sotmeu/programme_booklet/mittag.jpg"
-     x="0"
-     y="254.96417"
-     width="458.7774"
+     xlink:href="mittag.jpg"
+     id="image3079"
      height="344.08307"
-     id="image3079" />
+     width="458.7774"
+     y="254.96417"
+     x="0" />
   <rect
      width="482.74252"
      height="83.479187"

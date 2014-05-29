@@ -59,10 +59,10 @@
      id="path4607"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <image
-     xlink:href="file:///home/fred/git.geofabrik.de/gf_sotmeu/programme_booklet/karte-krug.png"
-     x="17.716536"
-     y="17.716511"
-     width="561.6142"
+     xlink:href="karte-krug.png"
+     id="image3177"
      height="409.02127"
-     id="image3177" />
+     width="561.6142"
+     y="17.716511"
+     x="17.716536" />
 </svg>

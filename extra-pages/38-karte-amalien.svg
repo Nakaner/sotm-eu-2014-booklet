@@ -27,12 +27,12 @@
   <defs
      id="defs6" />
   <image
-     xlink:href="file:///home/fred/git.geofabrik.de/gf_sotmeu/programme_booklet/sotmeu-amalien-6932-mapnik-3.png"
-     x="21.433071"
-     y="-6.0000296"
-     width="613.64258"
+     xlink:href="sotmeu-amalien-6932-mapnik-3.png"
+     id="image3132"
      height="446.91339"
-     id="image3132" />
+     width="613.64258"
+     y="-6.0000296"
+     x="21.433071" />
   <path
      d="m 35.433071,-2.9404297e-5 0,17.716540404297"
      id="path4591"
