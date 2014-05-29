@@ -50,12 +50,12 @@
      id="rect3009"
      style="fill:#ffffff;fill-rule:evenodd;stroke:none" />
   <image
-     xlink:href="file:///home/fred/git.geofabrik.de/gf_sotmeu/programme_booklet/krug.jpg"
-     x="3.7165356"
-     y="251.80708"
-     width="482.48224"
+     xlink:href="krug.jpg"
+     id="image3076"
      height="361.86169"
-     id="image3076" />
+     width="482.48224"
+     y="251.80708"
+     x="3.7165356" />
   <path
      d="m 35.433071,579.33069 0,17.71655"
      id="path4605"
