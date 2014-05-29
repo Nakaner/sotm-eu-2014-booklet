@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="442.91336"
+   height="597.04724"
+   id="svg2">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <linearGradient
+       id="linearGradient3853">
+      <stop
+         id="stop3855"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3861"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0.65815914" />
+      <stop
+         id="stop3871"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="0.82269895" />
+      <stop
+         id="stop3857"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="44.579163"
+       y1="-221.22469"
+       x2="515.52258"
+       y2="-221.22469"
+       id="linearGradient3869"
+       xlink:href="#linearGradient3853"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.48743716,0,0,1,112.58364,6.3320126)" />
+  </defs>
+  <path
+     d="m 35.433071,1.2109375e-6 0,17.7165297890625"
+     id="path4591"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     d="m 0,35.433071 17.716535,0"
+     id="path4593"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     d="m 407.48031,1.2109375e-6 0,17.7165297890625"
+     id="path4595"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     d="m 442.91339,35.433071 -17.71654,0"
+     id="path4597"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <rect
+     width="482.74252"
+     height="83.479187"
+     x="-1.1193522"
+     y="241.62009"
+     id="rect3009"
+     style="fill:#ffffff;fill-rule:evenodd;stroke:none" />
+  <path
+     d="m 407.48031,597.04724 0,-17.71653"
+     id="path4601"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     d="m 425.19685,561.61415 17.71654,2e-5"
+     id="path4603"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     d="m 35.433071,579.33069 0,17.71655"
+     id="path4605"
+     style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     d="M 17.716535,561.61415 0,561.61417"
+     id="path4607"
+     style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <image
+     xlink:href="file:///home/fred/git.geofabrik.de/gf_sotmeu/programme_booklet/amalien-gebaeude.jpg"
+     x="22.953533"
+     y="273.93167"
+     width="402.24332"
+     height="301.6825"
+     id="image3078" />
+  <rect
+     width="65.694618"
+     height="419.49582"
+     x="257.57809"
+     y="-429.78537"
+     transform="matrix(0,1,-1,0,0,0)"
+     id="rect3081"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+</svg>

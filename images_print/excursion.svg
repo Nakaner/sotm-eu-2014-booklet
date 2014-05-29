@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    width="442.91336"
    height="597.04724"
@@ -24,9 +25,38 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs6" />
+     id="defs6">
+    <linearGradient
+       id="linearGradient4001">
+      <stop
+         id="stop4003"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="0" />
+      <stop
+         id="stop4009"
+         style="stop-color:#ffffff;stop-opacity:0.58823532"
+         offset="0.30000001" />
+      <stop
+         id="stop4011"
+         style="stop-color:#ffffff;stop-opacity:0.58823532"
+         offset="0.69999999" />
+      <stop
+         id="stop4005"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="17.716536"
+       y1="43.405506"
+       x2="425.19684"
+       y2="43.405506"
+       id="linearGradient4007"
+       xlink:href="#linearGradient4001"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,10)" />
+  </defs>
   <path
-     d="m 35.433071,1.2109375e-6 0,17.7165297890625"
+     d="m 35.433071,12.000001 0,17.71653"
      id="path4591"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <path
@@ -34,7 +64,7 @@
      id="path4593"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <path
-     d="m 407.48031,1.2109375e-6 0,17.7165297890625"
+     d="m 407.48031,12.000001 0,17.71653"
      id="path4595"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <path
@@ -80,6 +110,7 @@
          id="tspan3840">Friday</tspan></text>
   </g>
   <g
+     transform="translate(-80,0)"
      id="g5797">
     <rect
        width="38.976379"
@@ -168,7 +199,6 @@
          id="tspan3907">Sunday</tspan></text>
   </g>
   <g
-     transform="translate(-80,0)"
      id="g5787">
     <rect
        width="38.976379"
@@ -192,15 +222,15 @@
   <rect
      width="407.48032"
      height="51.377949"
-     x="513.51404"
-     y="17.71653"
+     x="453.91895"
+     y="-40.13525"
      id="rect5759"
      style="fill:#d694c0;fill-opacity:0.53170734;fill-rule:evenodd;stroke:none" />
   <rect
      width="407.48032"
      height="51.377949"
-     x="17.716536"
-     y="17.723078"
+     x="-424.08322"
+     y="35.433071"
      id="rect5759-3"
      style="fill:#f7d7a0;fill-opacity:1;fill-rule:evenodd;stroke:none" />
   <rect
@@ -210,4 +240,25 @@
      y="150.25645"
      id="rect5759-3-9"
      style="fill:#daf2c9;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <image
+     xlink:href="file:///home/fred/git.geofabrik.de/gf_sotmeu/programme_booklet/grass-clipart-3.png"
+     x="17.969934"
+     y="31.431881"
+     width="407.22693"
+     height="47.187363"
+     id="image3212" />
+  <rect
+     width="407.48032"
+     height="51.377949"
+     x="17.716536"
+     y="27.716532"
+     id="rect5759-32"
+     style="fill:url(#linearGradient4007);fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <rect
+     width="471.37042"
+     height="33.094318"
+     x="-15.205497"
+     y="66.64373"
+     id="rect3025"
+     style="fill:#ffffff;fill-rule:evenodd;stroke:none" />
 </svg>
