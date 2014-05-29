@@ -8,10 +8,34 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="442.91336"
    height="597.04724"
-   id="svg2">
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="excursion.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview49"
+     showgrid="false"
+     inkscape:zoom="1.1180167"
+     inkscape:cx="187.96168"
+     inkscape:cy="454.54524"
+     inkscape:window-x="57"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -104,7 +128,8 @@
        transform="matrix(0,1,-1,0,0,0)"
        id="text3838"
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold Semi-Condensed"><tspan
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold Semi-Condensed"
+       sodipodi:linespacing="100%"><tspan
          x="163.23917"
          y="-392.71698"
          id="tspan3840">Friday</tspan></text>
@@ -126,7 +151,8 @@
        transform="matrix(0,-1,1,0,0,0)"
        id="text3838-1"
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold Semi-Condensed"><tspan
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold Semi-Condensed"
+       sodipodi:linespacing="100%"><tspan
          x="-198.17813"
          y="50.196419"
          id="tspan3840-5">Friday</tspan></text>
@@ -148,7 +174,8 @@
        transform="matrix(0,1,-1,0,0,0)"
        id="text3838-4"
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold Semi-Condensed"><tspan
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold Semi-Condensed"
+       sodipodi:linespacing="100%"><tspan
          x="297.00345"
          y="-392.71698"
          id="tspan3903">Saturday</tspan></text>
@@ -170,7 +197,8 @@
        transform="matrix(0,-1,1,0,0,0)"
        id="text3838-1-9"
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold Semi-Condensed"><tspan
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold Semi-Condensed"
+       sodipodi:linespacing="100%"><tspan
          x="-347.87845"
          y="50.196419"
          id="tspan3905"
@@ -193,7 +221,8 @@
        transform="matrix(0,1,-1,0,0,0)"
        id="text3838-8"
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold Semi-Condensed"><tspan
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold Semi-Condensed"
+       sodipodi:linespacing="100%"><tspan
          x="443.35486"
          y="-392.71698"
          id="tspan3907">Sunday</tspan></text>
@@ -214,7 +243,8 @@
        transform="matrix(0,-1,1,0,0,0)"
        id="text3838-1-2"
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold Semi-Condensed"><tspan
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold Semi-Condensed"
+       sodipodi:linespacing="100%"><tspan
          x="-484.99158"
          y="50.196419"
          id="tspan3909">Sunday</tspan></text>
@@ -241,17 +271,18 @@
      id="rect5759-3-9"
      style="fill:#daf2c9;fill-opacity:1;fill-rule:evenodd;stroke:none" />
   <image
-     xlink:href="file:///home/fred/git.geofabrik.de/gf_sotmeu/programme_booklet/grass-clipart-3.png"
-     x="17.969934"
-     y="31.431881"
-     width="407.22693"
+     sodipodi:absref="/home/michael/Dokumente/OSM/SotM-EU_2014/programm/images_print/grass-clipart-3.png"
+     xlink:href="grass-clipart-3.png"
+     id="image3212"
      height="47.187363"
-     id="image3212" />
+     width="407.22693"
+     y="31.431881"
+     x="17.969934" />
   <rect
      width="407.48032"
      height="51.377949"
      x="17.716536"
-     y="27.716532"
+     y="27.71653"
      id="rect5759-32"
      style="fill:url(#linearGradient4007);fill-opacity:1;fill-rule:evenodd;stroke:none" />
   <rect
